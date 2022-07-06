@@ -62,6 +62,8 @@ class GameFragment : Fragment() {
         binding.score.text = "SCORE: " + scoreValue.toString()
 
         binding.startButton.setOnClickListener{
+            scoreValue = 0
+
             binding.startButton.setVisibility(View.INVISIBLE)
             binding.score.setVisibility(View.VISIBLE)
             binding.time.setVisibility(View.VISIBLE)
@@ -92,18 +94,13 @@ class GameFragment : Fragment() {
                             .setPositiveButton("YES"){ dialog, which ->
                                 val score = Score(0, user!!.username, LocalDate.now().toString(), scoreValue)
                                 scoreRepository.insert(score)
-                                scoreValue = 0
-                                binding.score.text = "SCORE: " + scoreValue.toString()
-                                binding.score.setVisibility(View.INVISIBLE)
                             }
                             .setNegativeButton("NO") { dialog, which ->
-                                scoreValue = 0
-                                binding.score.text = "SCORE: " + scoreValue.toString()
-                                binding.score.setVisibility(View.INVISIBLE)
                             }
                             .create()
                             .show()
                     }
+                    binding.score.setVisibility(View.INVISIBLE)
                 }
             }.start()
         }

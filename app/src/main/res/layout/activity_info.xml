@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Every word has a unique combination of text and color. Two of the three given words will have in  common text and color and the third word will have nothing in common with the other two. For example for words:"
+        android:text="Every word has a unique combination of text and color. Two of the three given words will have in common text and color and the third word will have nothing in common with the other two. For example for words:"
         android:textAlignment="textStart"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Three words and five buttons are given. Buttons are colored purple, blue, pink, yellow and green  respectively. Each given word will be either purple, blue, pink, yellow or green and will be colored in one of the mentioned colors that is different from its name."
+        android:text="Three words and five buttons are given. Buttons are colored purple, blue, pink, yellow and green respectively. Each given word will be either purple, blue, pink, yellow or green and will be colored in one of the mentioned colors that is different from its name."
         android:textAlignment="textStart"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
