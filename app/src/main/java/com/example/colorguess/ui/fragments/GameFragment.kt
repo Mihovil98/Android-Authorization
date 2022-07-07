@@ -63,6 +63,7 @@ class GameFragment : Fragment() {
 
         binding.startButton.setOnClickListener{
             scoreValue = 0
+            binding.score.text = "SCORE: " + scoreValue.toString()
 
             binding.startButton.setVisibility(View.INVISIBLE)
             binding.score.setVisibility(View.VISIBLE)
