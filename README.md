@@ -6,7 +6,7 @@ The user has the possibility to register and only after that can start using the
 
 ## Used Concepts
 
-Activity, Fragment, Navigation, Explicit Intent, SoundPool, RecyclerView: display of results pulled from the database, SQLite database: registration, login, saving results
+Activity, Explicit Intent, Fragment, Navigation, Safe Args, SoundPool, RecyclerView: display of results pulled from the database, SQLite database: registration, login, saving results
 
 ## How to Play
 
