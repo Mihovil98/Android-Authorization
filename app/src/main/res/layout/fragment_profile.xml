@@ -10,11 +10,12 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/personal_scores"
         android:layout_width="409dp"
-        android:layout_height="370dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_button" />
 
     <Button
         android:id="@+id/edit_button"
