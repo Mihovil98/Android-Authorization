@@ -2,7 +2,7 @@
 
 ## Description
 
-The user has the possibility to register and only after that can start using the application. Each registered user has his own profile where he can enter personal information and add a picture. The main functionality of the application is to play the game and collect points for correct answers. After the achieved result, the user can save his result, which will be displayed on the highscore.
+The user has an option to register and only after that can start using the application. Each registered user has his own profile where he can enter personal information and add a picture. The main functionality of the application is to play the game and collect points for correct answers. After the achieved result, the user can save his result, which will be displayed on the highscore.
 
 ## Used Concepts
 
