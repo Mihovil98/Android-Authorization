@@ -8,7 +8,7 @@ The user has the possibility to register and only after that can start using the
 
 Activity, Explicit Intent, Fragment, Navigation, Safe Args, SoundPool, RecyclerView: display of results pulled from the database, SQLite database: registration, login, saving results
 
-## How to Play
+## Game
 
 Three words and five buttons are given. Buttons are colored purple, blue, pink, yellow and green respectively. Each given word will be either purple, blue, pink, yellow or green and will be colored in one of the mentioned colors that is different from its name.
 
